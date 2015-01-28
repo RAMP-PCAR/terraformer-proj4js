@@ -14,6 +14,7 @@
     root.Terraformer.Proj = factory(root.Terraformer, root.proj4);
   }
 }(this, function(Terraformer, proj4) {
+  var exports = {};
 
   function convert(geojson, outputSpatialReference, inputSpatialReference) {
     var inSr = inputSpatialReference,
