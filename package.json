@@ -8,6 +8,10 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-uglify": "~0.4.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RAMP-PCAR/terraformer-proj4js.git"
+  },
   "dependencies": {
     "proj4js": "git://github.com/proj4js/proj4js.git#2.3.3",
     "terraformer": "~1.0.4"
