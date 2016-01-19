@@ -1,8 +1,8 @@
 {
   "name": "terraformer-proj4js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies"  : {
-    "proj4js": "https://github.com/proj4js/proj4js.git#2.3.3",
+    "proj4": "^2.3.12",
     "terraformer": "~1.0.4"
   }
 }
