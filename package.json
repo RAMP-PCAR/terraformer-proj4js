@@ -6,7 +6,6 @@
   "devDependencies": {
     "babelify": "~6.3.0",
     "browserify": "~11.2.0",
-    "browserify-shim": "^3.8.12",
     "del": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1",
@@ -27,22 +26,15 @@
     "gulp-zip": "^3.0.2",
     "jshint-stylish": "^2.0.1",
     "proj4": "^2.3.12",
-    "terraformer": "~1.0.4",
     "vinyl-buffer": "~1.0.0",
     "vinyl-source-stream": "~1.1.0"
-  },
-  "browserify": {
-    "transform": [
-        "browserify-shim"
-    ]
-  },
-  "browserify-shim": {
-    "terraformer":"global:Terraformer"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/RAMP-PCAR/terraformer-proj4js.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "terraformer": "~1.0.4"
+  },
   "license": "MIT"
 }
