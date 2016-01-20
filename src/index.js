@@ -1,3 +1,4 @@
+'use strict';
 function makeConverter(Terraformer, proj4) {
 
     return function (geojson, outputSpatialReference, inputSpatialReference) {
