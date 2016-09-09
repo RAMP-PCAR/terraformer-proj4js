@@ -1,8 +1,8 @@
 {
   "name": "terraformer-proj4js",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Proj4js integration with Terraformer.",
-  "main": "src/index.js",
+  "main": "dist/terraformer-proj4js.js",
   "devDependencies": {
     "babelify": "~6.3.0",
     "browserify": "~11.2.0",
