@@ -48,14 +48,14 @@ gulp.task('build', 'Transpile and concatenate the code', function () {
         .pipe(source('terraformer-proj4js.js'))
         .pipe(buffer())
         /* .pipe($.derequire()) */
-        .pipe($.sourcemaps.init())
+        /* .pipe($.sourcemaps.init()) // end user will need to make their own source maps */
         .pipe($.babel())
         .pipe($.concat('terraformer-proj4js.js'))
         /* .pipe(gulp.dest('dist/v' + pkg.version)) */
         .pipe(gulp.dest('dist'))
         .pipe($.rename('terraformer-proj4js.min.js'))
         .pipe($.uglify())
-        .pipe($.sourcemaps.write('.'))
+        /* .pipe($.sourcemaps.write('.')) */
         .pipe(gulp.dest('dist'));
 });
 
