@@ -1,4 +1,6 @@
 lib/
+dist/*.zip
+dist/*.tgz
 build/
 node_modules/
 
